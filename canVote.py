@@ -5,10 +5,13 @@ last_name = input('Enter your lastname: ')
 first_name = input('Enter your firstname: ')
 
 #2  WELCOME USER
-
-print(f'Hi {first_name, last_name}, Welcome to our polling unit. Kindly enter your year of birth to confirm your eligibility status')
+print(f'Hi {first_name} {last_name}, Welcome to our polling unit. Kindly enter your year of birth to confirm your eligibility status')
 
 yearOfBirth = int(input('Enter your Year Of Birth: '))
+
+import datetime 
+dt = datetime.datetime.date()
+print(dt)
 
 
 #3 CHECK IF AGE IS UPTO VOTING AGE
@@ -35,5 +38,5 @@ def result():
      print('Hello You are eligible to vote')
      
      
-# CALL THE RESULT
+#6 CALL THE RESULT
 result()
