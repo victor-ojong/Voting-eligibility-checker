@@ -10,7 +10,7 @@ print(f'Hi {first_name} {last_name}, Welcome to our polling unit. Kindly enter y
 yearOfBirth = int(input('Enter your Year Of Birth: '))
 
 import datetime 
-dt = datetime.datetime.date()
+dt = datetime.date.today().year
 print(dt)
 
 
