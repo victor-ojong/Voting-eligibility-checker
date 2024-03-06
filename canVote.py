@@ -1,4 +1,4 @@
-
+import datetime 
 #1 GET NAME INPUTS
 last_name = input('Enter your lastname: ')
 
@@ -9,11 +9,9 @@ print(f'Hi {first_name} {last_name}, Welcome to our polling unit. Kindly enter y
 
 yearOfBirth = int(input('Enter your Year Of Birth: '))
 
-import datetime 
-dt = datetime.date.today().year
-print(dt)
 
 
+current_year = datetime.date.today().year
 #3 CHECK IF AGE IS UPTO VOTING AGE
 def checkAge(age):
   
